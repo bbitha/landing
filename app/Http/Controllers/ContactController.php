@@ -25,6 +25,7 @@ class ContactController extends Controller
         );
 
 
-        return back()->with('success', 'Tu mensaje fue enviado con éxito. ¡Gracias por contactarnos!');
+       return redirect('/#contacto')->with('success', 'Tu mensaje fue enviado con éxito. ¡Gracias por contactarnos!');
+
     }
 }
