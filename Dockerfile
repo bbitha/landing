@@ -11,6 +11,7 @@ COPY . /var/www
 WORKDIR /var/www
 
 RUN composer install && php artisan config:clear
+RUN mkdir -p /var/www/database && touch /var/www/database/database.sqlite
 
 EXPOSE 8080
 CMD php artisan serve --host=0.0.0.0 --port=8080
