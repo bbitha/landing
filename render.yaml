@@ -22,7 +22,7 @@ services:
       - key: MAIL_USERNAME
         value: jfernandaclarosv@gmail.com
       - key: MAIL_PASSWORD
-        value: xmyfgcvggwixmbmj
+        value: 
       - key: MAIL_ENCRYPTION
         value: tls
       - key: MAIL_FROM_ADDRESS
