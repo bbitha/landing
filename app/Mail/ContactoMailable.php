@@ -22,7 +22,7 @@ class ContactoMailable extends Mailable
 
     public function build()
     {
-        return $this->subject('Nuevo mensaje desde Tecnología CLARVID')
+        return $this->subject('Nuevo mensaje desde NebulaSoft')
                     ->view('emails.contacto');
     }
 }

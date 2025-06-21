@@ -16,7 +16,7 @@ class ContactController extends Controller
 
 
 
-        Mail::to('jfernandaclarosv@gmail.com')->send(
+        Mail::to('bebi.vr@gmail.com')->send(
             new ContactoMailable(
                 $request->nombre,
                 $request->email,
