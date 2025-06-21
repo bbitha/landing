@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: clarvid-landing
+    env: docker
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:yBx8VPjR9isOZwwHS0E2Qbyeq0lGQPyQx0AdMxQ+FIo=
+      - key: APP_URL
+        value: https://clarvid.onrender.com
+      - key: MAIL_MAILER
+        value: smtp
+      - key: MAIL_HOST
+        value: smtp.gmail.com
+      - key: MAIL_PORT
+        value: 587
+      - key: MAIL_USERNAME
+        value: jfernandaclarosv@gmail.com
+      - key: MAIL_PASSWORD
+        value: xmyfgcvggwixmbmj
+      - key: MAIL_ENCRYPTION
+        value: tls
+      - key: MAIL_FROM_ADDRESS
+        value: jfernandaclarosv@gmail.com
+      - key: MAIL_FROM_NAME
+        value: "Tecnología CLARVID"
