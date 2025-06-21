@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: clarvid-landing
+    name: landing
     env: docker
     plan: free
     buildCommand: ""
@@ -12,7 +12,7 @@ services:
       - key: APP_KEY
         value: base64:yBx8VPjR9isOZwwHS0E2Qbyeq0lGQPyQx0AdMxQ+FIo=
       - key: APP_URL
-        value: https://clarvid.onrender.com
+        value: https://landing-n5pn.onrender.com
       - key: MAIL_MAILER
         value: smtp
       - key: MAIL_HOST
